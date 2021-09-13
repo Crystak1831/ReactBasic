@@ -6,17 +6,24 @@ import "./styles.css";
 // import StateAndLifecycle from "./basics/stateAndLifecycle/stateAndLifecycle";
 // import HandlingEvent from "./basics/HandlingEvent/HandlingEvent"
 // import ConditionRendering from "./basics/ConditionRendering/ConditionRendering"
-import LiftingStateUp from "./basics/liftingStateUp/LiftingStateUp";
+// import LiftingStateUp from "./basics/liftingStateUp/LiftingStateUp";
+
+// advanced:
+import ErrorApps from "./advanced/errorBoundaries";
 
 export default function App() {
   return (
     <div className="App">
+      {/* Basics: */}
       {/* <JsxIntro /> */}
       {/* <ComponentsAndProps /> */}
       {/* <StateAndLifecycle /> */}
       {/* <HandlingEvent/> */}
       {/* <ConditionRendering/> */}
-      <LiftingStateUp />
+      {/* <LiftingStateUp /> */}
+
+      {/* Advanced: */}
+      <ErrorApps />
     </div>
   );
 }
