@@ -12,7 +12,8 @@ import ReactDOM from "react-dom";
 
 // advanced:
 // import ErrorApps from "./advanced/errorBoundaries/errorBoundaries";
-import Portal from "./advanced/Portal/Protal";
+// import Portal from "./advanced/Portal/Protal";
+import ReconcilitionKey from "./advanced/Reconcilition/ReconcilitionKey";
 
 export default function App() {
   return (
@@ -27,7 +28,8 @@ export default function App() {
 
       {/* Advanced: */}
       {/* <ErrorApps /> */}
-      <Portal />
+      {/* <Portal /> */}
+      <ReconcilitionKey />
     </div>
   );
 }
