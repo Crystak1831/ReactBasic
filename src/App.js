@@ -1,4 +1,6 @@
 import "./styles.css";
+import React from "react";
+import ReactDOM from "react-dom";
 
 // basics:
 // import JsxIntro from "./basics/jsxIntro/jsxIntro";
@@ -9,7 +11,8 @@ import "./styles.css";
 // import LiftingStateUp from "./basics/liftingStateUp/LiftingStateUp";
 
 // advanced:
-import ErrorApps from "./advanced/errorBoundaries";
+// import ErrorApps from "./advanced/errorBoundaries/errorBoundaries";
+import Portal from "./advanced/Portal/Protal";
 
 export default function App() {
   return (
@@ -23,7 +26,8 @@ export default function App() {
       {/* <LiftingStateUp /> */}
 
       {/* Advanced: */}
-      <ErrorApps />
+      {/* <ErrorApps /> */}
+      <Portal />
     </div>
   );
 }
