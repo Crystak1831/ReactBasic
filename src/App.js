@@ -13,7 +13,11 @@ import ReactDOM from "react-dom";
 // advanced:
 // import ErrorApps from "./advanced/errorBoundaries/errorBoundaries";
 // import Portal from "./advanced/Portal/Protal";
-import ReconcilitionKey from "./advanced/Reconcilition/ReconcilitionKey";
+// import ReconcilitionKey from "./advanced/Reconcilition/ReconcilitionKey";
+// import RefAuto from "./advanced/Ref/Refs";
+// import UseRefAuto from "./advanced/Ref/useRef"
+import CounterHOC from "./advanced/HOC/counterHOC";
+import CounterHOC1 from "./advanced/HOC/counterHOC1";
 
 export default function App() {
   return (
@@ -29,7 +33,13 @@ export default function App() {
       {/* Advanced: */}
       {/* <ErrorApps /> */}
       {/* <Portal /> */}
-      <ReconcilitionKey />
+      {/* <ReconcilitionKey /> */}
+      {/* <RefAuto /> */}
+      {/* <UseRefAuto /> */}
+
+      <CounterHOC />
+      <hr />
+      <CounterHOC1 />
     </div>
   );
 }
