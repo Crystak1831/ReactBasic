@@ -19,6 +19,8 @@ import ReactDOM from "react-dom";
 import CounterHOC from "./advanced/HOC/counterHOC";
 import CounterHOC1 from "./advanced/HOC/counterHOC1";
 
+import Header from "./advanced/HOC2/Header";
+
 export default function App() {
   return (
     <div className="App">
@@ -37,9 +39,11 @@ export default function App() {
       {/* <RefAuto /> */}
       {/* <UseRefAuto /> */}
 
-      <CounterHOC />
-      <hr />
-      <CounterHOC1 />
+      {/* <CounterHOC /> */}
+      {/* <hr /> */}
+      {/* <CounterHOC1 /> */}
+
+      <Header />
     </div>
   );
 }
